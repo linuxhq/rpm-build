@@ -37,5 +37,5 @@ Delete expired EBS snapshots in Amazon EC2
 %{_bindir}/%{name}
 
 %changelog
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428gitb66d1ad-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428gitb66d1ad-1
 - Initial package.

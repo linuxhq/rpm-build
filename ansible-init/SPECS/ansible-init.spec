@@ -62,11 +62,11 @@ ssh-keygen -b 4096 \
 %config(noreplace) %{_sysconfdir}/sysconfig/ansible
 
 %changelog
-* Fri Jun 17 2016 Taylor Kimball <packages@linuxhq.org> - 0.3-1
+* Fri Jun 17 2016 Taylor Kimball <noreply@linuxhq.org> - 0.3-1
 - Add ssh_config to ansbile_runuser account.
 
-* Thu Jun 16 2016 Taylor Kimball <packages@linuxhq.org> - 0.2-1
+* Thu Jun 16 2016 Taylor Kimball <noreply@linuxhq.org> - 0.2-1
 - Generate private ssh key for automated git clones.
 
-* Fri Apr 29 2016 Taylor Kimball <packages@linuxhq.org> - 0.1-1
+* Fri Apr 29 2016 Taylor Kimball <noreply@linuxhq.org> - 0.1-1
 - Initial build.

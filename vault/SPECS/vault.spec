@@ -163,12 +163,12 @@ rm -rf %{buildroot}
 - Modified spec to properly support CentOS/RHEL 7
 - Small uniformity mods
 
-* Tue Mar 27 2018 Taylor Kimball <packages@linuxhq.org> - 0.9.6-1
+* Tue Mar 27 2018 Taylor Kimball <noreply@linuxhq.org> - 0.9.6-1
 - Updated to 0.9.6
 - Add vault user to runas
 
-* Mon Feb 12 2018 Taylor Kibmall <packages@linuxhq.org> - 0.9.3-1
+* Mon Feb 12 2018 Taylor Kibmall <noreply@linuxhq.org> - 0.9.3-1
 - Updated to 0.9.3
 
-* Mon May 02 2016 Taylor Kimball <packages@linuxhq.org> - 0.5.2-1
+* Mon May 02 2016 Taylor Kimball <noreply@linuxhq.org> - 0.5.2-1
 - Initial build.

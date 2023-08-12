@@ -34,5 +34,5 @@ Swapfile creation init script
 %{_sysconfdir}/rc.d/init.d/%{name}
 
 %changelog
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 0.1-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 0.1-1
 - Initial commit.

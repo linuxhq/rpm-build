@@ -125,11 +125,11 @@ rm -rf %{buildroot}
 - Converted sample config file to HCL
 - Small uniformity mods
 
-* Sun Mar 25 2018 Taylor Kimball <packages@linuxhq.org> - 1.0.6-1
+* Sun Mar 25 2018 Taylor Kimball <noreply@linuxhq.org> - 1.0.6-1
 - Update to version 1.0.6
 
-* Mon Sep 26 2016 Taylor kimball <packages@linuxhq.org> - 0.7.0-1
+* Mon Sep 26 2016 Taylor kimball <noreply@linuxhq.org> - 0.7.0-1
 - Update to version 0.7.0
 
-* Tue May 03 2016 Taylor Kimball <packages@linuxhq.org> - 0.6.4-1
+* Tue May 03 2016 Taylor Kimball <noreply@linuxhq.org> - 0.6.4-1
 - Initial build.

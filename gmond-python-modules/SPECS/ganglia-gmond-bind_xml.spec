@@ -45,5 +45,5 @@ Gmond Python DSO metric module: %{__module}
 %{_libdir}/ganglia/python_modules/%{__module}.pyo
 
 %changelog
-* Thu Jan 21 2016 Taylor Kimball <packages@linuxhq.org> - 20160121git7cb2422-1
+* Thu Jan 21 2016 Taylor Kimball <noreply@linuxhq.org> - 20160121git7cb2422-1
 - Initial spec

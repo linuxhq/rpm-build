@@ -36,11 +36,11 @@ since evolved into something much different at its core.
 %{_bindir}/%{name}
 
 %changelog
-* Fri Apr 06 2018 Taylor Kimball <packages@linuxhq.org> - 1.4.8-1
+* Fri Apr 06 2018 Taylor Kimball <noreply@linuxhq.org> - 1.4.8-1
 - Update to v1.4.8
 
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428git1ec454d-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428git1ec454d-1
 - Update to commit 1ec454d.
 
-* Wed Sep 02 2015 Taylor Kimball <packages@linuxhq.org> - 20150902gitd28d690-1
+* Wed Sep 02 2015 Taylor Kimball <noreply@linuxhq.org> - 20150902gitd28d690-1
 - Initial package.

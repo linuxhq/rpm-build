@@ -36,11 +36,11 @@ with a few additional features to make using the API easier and pythonic.
 %{python_sitelib}/*
 
 %changelog
-* Sun Jun 24 2018 Taylor Kimball <packages@linuxhq.org> - 2.0.3-1
+* Sun Jun 24 2018 Taylor Kimball <noreply@linuxhq.org> - 2.0.3-1
 - Updated to 2.0.3.
 
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428git28b6408-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428git28b6408-1
 - Updated to commit 28b6408.
 
-* Wed Oct 14 2015 Taylor Kimball <packages@linuxhq.org> - 2.0.2-1
+* Wed Oct 14 2015 Taylor Kimball <noreply@linuxhq.org> - 2.0.2-1
 - Initial spec.

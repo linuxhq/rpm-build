@@ -36,5 +36,5 @@ Initiate consistent EBS snapshots in Amazon EC2
 %{_bindir}/%{name}
 
 %changelog
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428git68eeec9-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428git68eeec9-1
 - Initial package.

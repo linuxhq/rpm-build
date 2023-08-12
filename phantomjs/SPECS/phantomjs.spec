@@ -30,8 +30,8 @@ CSS selector, JSON, Canvas, and SVG.
 %{_bindir}/%{name}
 
 %changelog
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 2.1.1-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 2.1.1-1
 - Updated to 2.1.1.
 
-* Mon Dec 07 2015 Taylor Kimball <packages@linuxhq.org> - 2.0.0-1
+* Mon Dec 07 2015 Taylor Kimball <noreply@linuxhq.org> - 2.0.0-1
 - Initial build.

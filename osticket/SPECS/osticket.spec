@@ -34,11 +34,11 @@ interface.
 %attr(755,apache,apache) %{_datadir}/%{name}/htdocs/api/pipe.php
 
 %changelog
-* Sat Jun 23 2018 Taylor Kimball <packages@linuxhq.org> - 1.10.2-1
+* Sat Jun 23 2018 Taylor Kimball <noreply@linuxhq.org> - 1.10.2-1
 - Update to release 1.10.2
 
-* Mon Dec 11 2017 Taylor Kimball <packages@linuxhq.org> - 1.9.16-1
+* Mon Dec 11 2017 Taylor Kimball <noreply@linuxhq.org> - 1.9.16-1
 - Update to release 1.9.16
 
-* Fri May 27 2016 Taylor Kimball <packages@linuxhq.org> - 1.9.12-1
+* Fri May 27 2016 Taylor Kimball <noreply@linuxhq.org> - 1.9.12-1
 - Initial build

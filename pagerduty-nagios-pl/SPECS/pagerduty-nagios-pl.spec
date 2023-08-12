@@ -34,5 +34,5 @@ Integration script for nagios and pagerduty
 %{_bindir}/pagerduty_nagios.pl
 
 %changelog
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428git6fecda3-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428git6fecda3-1
 - Initial build.

@@ -40,5 +40,5 @@ directly out of hatop and monitor the results immediately.
 %{_datadir}/man/man1/%{name}.*
 
 %changelog
-* Fri Jun 19 2015 Taylor Kimball <packages@linuxhq.org> - 0.7.7-1
+* Fri Jun 19 2015 Taylor Kimball <noreply@linuxhq.org> - 0.7.7-1
 - Initial build.

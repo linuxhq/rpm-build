@@ -36,5 +36,5 @@ Palaver ZNC module provides push notifications.
 %{_libdir}/znc/%{module}.so
 
 %changelog
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428git482bcf0-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428git482bcf0-1
 - Initial build.

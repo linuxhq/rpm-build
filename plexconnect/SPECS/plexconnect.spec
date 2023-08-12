@@ -110,11 +110,11 @@ rm -rf %{buildroot}
 %attr(-,plexconnect,plexconnect) %dir %{_localstatedir}/run/%{name}
 
 %changelog
-* Fri Jul 08 2016 Taylor Kimball <packages@linuxhq.org> - 20160708git3ad6bf5-1
+* Fri Jul 08 2016 Taylor Kimball <noreply@linuxhq.org> - 20160708git3ad6bf5-1
 - Updated to commit 3ad6bf5.
 
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428gitcfd51de-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428gitcfd51de-1
 - Updated to commit cfd51de.
 
-* Mon Jan 19 2015 Taylor Kimball <packages@linuxhq.org> - 0.4-1
+* Mon Jan 19 2015 Taylor Kimball <noreply@linuxhq.org> - 0.4-1
 - Initial build.

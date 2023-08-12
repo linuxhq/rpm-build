@@ -31,8 +31,8 @@ Based on the original Stikked with lots of bugfixes and improvements.
 %{_datadir}/%{name}
 
 %changelog
-* Mon Mar 26 2018 Taylor Kimball <packages@linuxhq.org> - 0.12.0-1
+* Mon Mar 26 2018 Taylor Kimball <noreply@linuxhq.org> - 0.12.0-1
 - Update to v0.12.0
 
-* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428gitc1257bb-1
+* Thu Apr 28 2016 Taylor Kimball <noreply@linuxhq.org> - 20160428gitc1257bb-1
 - Update to commit c1257bb.

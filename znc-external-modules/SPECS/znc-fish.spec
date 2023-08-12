@@ -38,5 +38,5 @@ znc-buildmod %{module}.cpp
 %{_libdir}/znc/%{module}.so
 
 %changelog
-* Thu Apr 30 2016 Taylor Kimball <packages@linuxhq.org> - 20160430git5eb9be0-1
+* Thu Apr 30 2016 Taylor Kimball <noreply@linuxhq.org> - 20160430git5eb9be0-1
 - Initial build.

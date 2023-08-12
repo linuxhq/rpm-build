@@ -35,8 +35,8 @@ Library to handle parsing BIND statistics XML into Python objects.
 %{python_sitelib}/*
 
 %changelog
-* Sun Jun 24 2018 Taylor Kimball <packages@linuxhq.org> - 0.6.3-1
+* Sun Jun 24 2018 Taylor Kimball <noreply@linuxhq.org> - 0.6.3-1
 - Updated to 0.6.3.
 
-* Thu Jan 21 2016 Taylor Kimball <packages@linuxhq.org> - 20160121gitcb27d96-1
+* Thu Jan 21 2016 Taylor Kimball <noreply@linuxhq.org> - 20160121gitcb27d96-1
 - Initial spec.
