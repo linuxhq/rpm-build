@@ -1,4 +1,4 @@
-# rpmbuild
+# rpm-build
 
 [![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat)](COPYING)
 
