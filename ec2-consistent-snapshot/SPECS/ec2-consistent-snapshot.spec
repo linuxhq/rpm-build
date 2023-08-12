@@ -1,0 +1,40 @@
+%global date 20160428
+%global commit 68eeec9a5ce01f32a6e432c52d19ff3093784321
+%global short_commit %(c=%{commit}; echo ${c:0:7})
+%define _prefix /opt/aws
+
+Name:           ec2-consistent-snapshot
+Version:        %{date}git%{short_commit}
+Release:        1%{?dist}
+Summary:        Initiate consistent EBS snapshots in Amazon EC2
+Group:          Applications/Internet
+License:        Apache License 2.0
+URL:            https://github.com/alestic/%{name}
+Source0:        https://github.com/alestic/%{name}/archive/%{commit}/%{name}-%{commit}.tar.gz
+BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+BuildArch:      noarch
+BuildRequires:  perl
+
+%description
+Initiate consistent EBS snapshots in Amazon EC2
+
+%prep
+%setup -q -n %{name}-%{commit}
+%build
+%{__make} %{?_smp_mflags}
+
+%install
+%{__install} -d -m 0755 %{buildroot}%{_bindir}
+%{__install} -m 0755 %{name} %{buildroot}%{_bindir}
+
+%clean
+%{__rm} -rf %{buildroot}
+
+%files
+%defattr(-,root,root,-)
+%doc LICENSE README.md
+%{_bindir}/%{name}
+
+%changelog
+* Thu Apr 28 2016 Taylor Kimball <packages@linuxhq.org> - 20160428git68eeec9-1
+- Initial package.
