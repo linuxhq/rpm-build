@@ -1,0 +1,29 @@
+--- fish.cpp.orig	2016-04-30 14:48:59.421585672 -0700
++++ fish.cpp	2016-04-30 14:49:39.948855799 -0700
+@@ -329,7 +329,7 @@
+ 			free(cMsg);
+ 
+ 			// relay to other clients
+-			vector<CClient*>& vClients = this->m_pNetwork->GetClients();
++			const vector<CClient*>& vClients = this->m_pNetwork->GetClients();
+ 			for (unsigned int a = 0; a < vClients.size(); a++) {
+ 				CClient* pClient = vClients[a];
+ 
+@@ -362,7 +362,7 @@
+ 			free(cMsg);
+ 
+ 			// relay to other clients
+-			vector<CClient*>& vClients = this->m_pNetwork->GetClients();
++			const vector<CClient*>& vClients = this->m_pNetwork->GetClients();
+ 			for (unsigned int a = 0; a < vClients.size(); a++) {
+ 				CClient* pClient = vClients[a];
+ 
+@@ -395,7 +395,7 @@
+ 			free(cMsg);
+ 
+ 			// relay to other clients
+-			vector<CClient*>& vClients = this->m_pNetwork->GetClients();
++			const vector<CClient*>& vClients = this->m_pNetwork->GetClients();
+ 			for (unsigned int a = 0; a < vClients.size(); a++) {
+ 				CClient* pClient = vClients[a];
+ 

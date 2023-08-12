@@ -1,0 +1,11 @@
+--- znc/colloquy.cpp.orig	2016-04-30 14:46:10.730628582 -0700
++++ znc/colloquy.cpp	2016-04-30 14:46:19.278474019 -0700
+@@ -775,7 +775,7 @@
+ 		}
+ 
+ 		bool bRet = true;
+-		vector<CClient*>& vpClients = GetNetwork()->GetClients();
++		const vector<CClient*>& vpClients = GetNetwork()->GetClients();
+ 
+ 		// Cycle through all of the cached devices
+ 		for (map<CString, CDevice*>::iterator it = m_mspDevices.begin(); it != m_mspDevices.end(); it++) {
