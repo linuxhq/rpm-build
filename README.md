@@ -19,7 +19,7 @@ Create rpm packages for redhat based platforms
 ## Clone repository
 
     tmp=$(mktemp -d)
-    git clone https://github.com/linuxhq/rpmbuild.git ${tmp}
+    git clone https://github.com/linuxhq/rpm-build.git ${tmp}
     mkdir -p ${tmp}/${PACKAGE}/{SOURCES,SRPMS}
 
 ## Build package
