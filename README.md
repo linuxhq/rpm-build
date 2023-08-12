@@ -2,7 +2,7 @@
 
 [![License](https://img.shields.io/badge/license-GPLv3-brightgreen.svg?style=flat)](COPYING)
 
-Create rpm packages for redhat based platforms
+A collection of rpm specs and sources
 
 # Build
 
